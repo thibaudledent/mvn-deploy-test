@@ -13,6 +13,11 @@
         <module>module-two</module>
     </modules>
 
+    <scm>
+        <developerConnection>scm:git:ssh://git@github.com:thibaudledent/mvn-deploy-test.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
     <distributionManagement>
         <repository>
             <id>dev</id>
