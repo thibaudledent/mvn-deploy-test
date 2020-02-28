@@ -13,11 +13,6 @@
         <module>module-two</module>
     </modules>
 
-    <scm>
-        <developerConnection>scm:git:ssh://git@github.com:thibaudledent/mvn-deploy-test.git</developerConnection>
-        <tag>HEAD</tag>
-    </scm>
-
     <distributionManagement>
         <repository>
             <id>dev</id>
@@ -51,11 +46,18 @@
                         <deployAtEnd>true</deployAtEnd>
                     </configuration>
                 </plugin>
+                <plugin>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <version>2.5.3</version>
+                </plugin>
             </plugins>
         </pluginManagement>
         <plugins>
             <plugin>
                 <artifactId>maven-deploy-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <artifactId>maven-release-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
