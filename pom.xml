@@ -4,7 +4,7 @@
     <groupId>org.example</groupId>
     <artifactId>mvn-deploy-test</artifactId>
     <packaging>pom</packaging>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
 
     <modules>
         <module>module-one</module>
@@ -14,7 +14,7 @@
     <scm>
         <developerConnection>scm:git:git@github.com:thibaudledent/mvn-deploy-test.git</developerConnection>
         <url>https://github.com/thibaudledent/mvn-deploy-test</url>
-        <tag>HEAD</tag>
+        <tag>mvn-deploy-test-1.2</tag>
     </scm>
 
     <distributionManagement>
