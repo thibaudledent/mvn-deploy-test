@@ -13,6 +13,7 @@
 
     <scm>
         <developerConnection>scm:git:ssh://git@github.com:thibaudledent/mvn-deploy-test.git</developerConnection>
+        <url>https://github.com/thibaudledent/mvn-deploy-test</url>
         <tag>HEAD</tag>
     </scm>
 
