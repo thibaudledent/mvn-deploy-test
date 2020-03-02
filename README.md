@@ -47,3 +47,9 @@ It does the same, see the following files and search for "_[INFO] [INFO] Deployi
 6) `mvn release:prepare`
 7) `mvn -Darguments=\"-DdeployAtEnd=true\" release:perform`
 8) Check the output, it does the same
+
+## References
+* [Solved: When the Maven Deploy Plugin silently fails to deploy](http://www.robinhowlett.com/blog/2019/05/15/solved-when-the-maven-deploy-plugin-silently-fails-to-deploy/)
+* https://maven.apache.org/plugins/maven-deploy-plugin/deploy-mojo.html#deployAtEnd
+* [Stackoverflow: -DdeployAtEnd=true and mvn prepare](https://stackoverflow.com/a/54243700/9321274)
+* [Stackoverflow: mvn clean install vs. deploy vs. release](https://stackoverflow.com/a/3661037/9321274)
