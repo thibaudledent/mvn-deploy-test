@@ -3,7 +3,9 @@ Test the `deployAtEnd=true` during `mvn release:perform` and `mvn deploy`.
 
 ## Testing `mvn prepare` and `mvn deploy`
 
-I did some tests with `deployAtEnd=true`, the download and the upload of files are done at the end. To verify this, check the diff of the output with `deployAtEnd` in the main `pom.xml` and without it (search for "_at end_" in the logs).
+I wanted to test if `mvn -Darguments=\"-DdeployAtEnd=true\" release:perform` is doing the same as the `deployAtEnd=true` configuration in the parent `pom.xml` of a multi-modules maven project.
+
+I did some tests with `deployAtEnd=true`. As expected, the download and the upload of files are done at the end. To verify this, I checked the diff of the output with `deployAtEnd` in the main `pom.xml` and without it (search for "_at end_" in the logs).
 
 ### How to use `deployAtEnd`?
 
@@ -25,8 +27,7 @@ Add the configuration in the `pom.xml`:
 
 ```mvn -Darguments=\"-DdeployAtEnd=true\" release:perform```
 
-It does the same, see the following files and search for "_[INFO] [INFO] Deploying org.example:mvn-deploy-test:X.X *at end*_":
-
+It does the same, see the following files and search for "_[INFO] [INFO] Deploying org.example:mvn-deploy-test:X.X *at end*_".
 
 ### Steps to reproduce
 
