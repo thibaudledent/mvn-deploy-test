@@ -19,7 +19,7 @@ Add the configuration in the `pom.xml`:
 </plugin>
 ```
 
-(example [here|https://github.com/thibaudledent/mvn-deploy-test/commit/eceec95fbf97b168eb7c2ca41eacb72026d62a82#diff-600376dffeb79835ede4a0b285078036R46])
+(example [here](https://github.com/thibaudledent/mvn-deploy-test/commit/eceec95fbf97b168eb7c2ca41eacb72026d62a82#diff-600376dffeb79835ede4a0b285078036R46))
 
 #### Solution 2
 
