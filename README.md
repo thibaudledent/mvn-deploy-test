@@ -45,5 +45,5 @@ It does the same, see the following files and search for "_[INFO] [INFO] Deployi
 4) `mvn release:perform`
 5) Remove the config in the main `pom.xml`
 6) `mvn release:prepare`
-7) `mvn -Darguments=\"-DdeployAtEnd=true\" release:perform``
+7) `mvn -Darguments=\"-DdeployAtEnd=true\" release:perform`
 8) Check the output, it does the same
